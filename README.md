@@ -3,8 +3,8 @@
 - docker compose run --rm composer dump-autoload
 - docker compose run --rm artisan key:generate
 
-In the root folder remove ".example" from the ".env.example" file
-In the root/src folder remove ".example" from the ".env.example" file
+- In the root folder remove ".example" from the ".env.example" file
+- In the root/src folder remove ".example" from the ".env.example" file
 
 
 ## Follow up
