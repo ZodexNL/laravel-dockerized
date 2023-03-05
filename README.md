@@ -15,5 +15,11 @@ When starting to work on project, run this commands:
 
 You are good to go. Goodluck with your project!
 
+# Production
+When going on production you need to make your own certificates.
+Run your container like this:
+- docker compose -f docker-compose.yml -f docker-compose.prod.yml up --build nginx
+
+
 ## Database
 The database (mysql) is run from the docker container.
